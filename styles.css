@@ -1,0 +1,25 @@
+.text{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: rgb(57, 10, 228);
+    padding: 5px;
+
+}
+.picture{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+image{
+    padding: 7px;
+    width: 40%;
+}
+.image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px double;
+    
+}
+

@@ -1,25 +1,52 @@
-.text{
+.name{
     font-family: 'Lora', serif;
     font-size: 20px;
-    color: rgb(57, 10, 228);
+    color: rgb(0, 3, 160);
     padding: 5px;
-
+    text-align: center;
+    background-color: aquamarine;
 }
-.picture{
+.selfie{
     align-items: center;
     justify-content: center;
     display: flex;
-   
 }
-image{
-    padding: 7px;
-    width: 40%;
+.pic1{
+    padding:7px;
+    width:65%;
+
 }
-.image img{
+.selfpic2{
+    padding:7px;
+    width:65%;
+}
+div.pic1 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 5px double;
-    
+    border: 3px solid rgb(5, 4, 83);
+    border-radius: 5px;
+
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: solid;
 }
+div.selfpic2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(5, 4, 83);
+    border-radius: 5px;
+
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+}
+
+
+
+
+
 
